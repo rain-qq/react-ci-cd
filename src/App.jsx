@@ -1,7 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './HomePage';
-import AboutPage from './AboutPage';
+
+// 异步加载组件
+const HomePage = lazy(() => import('./HomePage'));
+const AboutPage = lazy(() => import('./AboutPage'));
 
 function App() {
   return (
