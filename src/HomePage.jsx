@@ -12,11 +12,19 @@ function HomePage() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>首页</h1>
-        <p>
-          欢迎来到首页！
-        </p>
-        <button className="App-link" onClick={goToAbout} style={{ background: 'none', border: 'none', color: '#61dafb', cursor: 'pointer', textDecoration: 'underline' }}>
+        <h1>首页-名称修改</h1>
+        <p>欢迎来到首页！</p>
+        <button
+          className="App-link"
+          onClick={goToAbout}
+          style={{
+            background: 'none',
+            border: 'none',
+            color: '#61dafb',
+            cursor: 'pointer',
+            textDecoration: 'underline',
+          }}
+        >
           转到关于页面
         </button>
       </header>
