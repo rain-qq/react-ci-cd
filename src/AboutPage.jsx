@@ -12,11 +12,19 @@ function AboutPage() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>关于页面</h1>
-        <p>
-          这是关于页面的内容。
-        </p>
-        <button className="App-link" onClick={goToHome} style={{ background: 'none', border: 'none', color: '#61dafb', cursor: 'pointer', textDecoration: 'underline' }}>
+        <h1>关于页面-名称修改</h1>
+        <p>这是关于页面的内容。</p>
+        <button
+          className="App-link"
+          onClick={goToHome}
+          style={{
+            background: 'none',
+            border: 'none',
+            color: '#61dafb',
+            cursor: 'pointer',
+            textDecoration: 'underline',
+          }}
+        >
           返回首页
         </button>
       </header>
